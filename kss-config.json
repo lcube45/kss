@@ -8,6 +8,7 @@
     "../css/style.css"
   ],
   "js": [
+    "../js/jquery.min.js",
     "../js/card.js"
   ],
   "namespace": [
