@@ -1,0 +1,10 @@
+{{ attach_library('mytheme/card') }}
+<div class="card" style="width: 18rem;">
+  <img src="{{ img_url }}" class="card-img-top" alt="{{ img_alt }}">
+  <div class="card-body">
+    <h5 class="card-title">{{ title }}</h5>
+    <p class="card-text">{{ text }}</p>
+{% include '@mytheme/button.twig' with {cta_url: '#', cta_label: 'hello'} only %}
+
+  </div>
+</div>

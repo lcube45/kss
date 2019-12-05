@@ -1,0 +1,10 @@
+{
+  "source": [
+    "components"
+  ],
+  "destination":  "styleguide/",
+  "builder": "builder/twig",
+  "css": [
+    "../css/style.css"
+  ]
+}

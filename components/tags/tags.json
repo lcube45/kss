@@ -1,0 +1,29 @@
+{
+  "label": "Tags",
+  "tags": [
+    {
+      "name": "News",
+      "url": "node/1"
+    },
+    {
+      "name": "Sport",
+      "url": "node/1"
+    },
+    {
+      "name": "Music",
+      "url": "node/1"
+    },
+    {
+      "name": "Politics",
+      "url": "node/1"
+    },
+    {
+      "name": "Analysis",
+      "url": "node/1"
+    },
+    {
+      "name": "Finance",
+      "url": "node/1"
+    }
+  ]
+}
