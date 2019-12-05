@@ -6,5 +6,11 @@
   "builder": "builder/twig",
   "css": [
     "../css/style.css"
+  ],
+  "js": [
+    "../js/card.js"
+  ],
+  "namespace": [
+    "mytheme:components"
   ]
 }

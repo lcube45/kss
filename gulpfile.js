@@ -18,6 +18,7 @@ const paths = {
     bootstrap: './node_modules/bootstrap/dist/js/bootstrap.min.js',
     jquery: './node_modules/jquery/dist/jquery.min.js',
     popper: 'node_modules/popper.js/dist/umd/popper.min.js',
+    components: './components/**/*.js',
     dest: './js'
   }
 }
@@ -49,7 +50,7 @@ function styles () {
 
 // Move the javascript files into our js folder
 function js () {
-  return gulp.src([paths.js.bootstrap, paths.js.jquery, paths.js.popper])
+  return gulp.src([paths.js.components, paths.js.bootstrap, paths.js.jquery, paths.js.popper])
     .pipe(gulp.dest(paths.js.dest))
     .pipe(browserSync.stream())
 }
