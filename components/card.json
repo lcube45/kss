@@ -2,5 +2,10 @@
     "title": "My title",
     "text": "my lorem ipsum",
     "img_url": "https://via.placeholder.com/150",
-    "img_alt": "My alt text"
+    "img_alt": "My alt text",
+    "attributes": {
+        "class": "myclass",
+        "id": "myid",
+        "role": "experimental"
+    }
 }
