@@ -1,6 +1,6 @@
 {
   "source": [
-    "components"
+    "ui"
   ],
   "destination":  "styleguide/",
   "builder": "builder/twig",
@@ -12,6 +12,6 @@
     "../js/card.js"
   ],
   "namespace": [
-    "mytheme:components"
+    "mytheme:ui"
   ]
 }

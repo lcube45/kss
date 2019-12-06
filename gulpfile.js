@@ -9,23 +9,23 @@ let gulp = require('gulp'),
 
 const paths = {
   scss: {
-    src: './components/style.scss',
+    src: './ui/style.scss',
     dest: './css',
-    watch: './components/**/*.scss',
+    watch: './ui/**/*.scss',
     bootstrap: './node_modules/bootstrap/scss/bootstrap.scss'
   },
   js: {
     bootstrap: './node_modules/bootstrap/dist/js/bootstrap.min.js',
     jquery: './node_modules/jquery/dist/jquery.min.js',
     popper: 'node_modules/popper.js/dist/umd/popper.min.js',
-    components: './components/**/*.js',
+    components: './ui/**/*.js',
     dest: './js'
   }
 }
 
 // Compile sass into CSS & auto-inject into browsers
 function styles () {
-  return gulp.src([paths.scss.src])
+  return gulp.src([paths.scss.watch])
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss([autoprefixer({
