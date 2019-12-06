@@ -9,9 +9,12 @@
 #}
 
 <div class="tags">
-  <ul class="tags__items">
     {% for tag in tags %}
-      <li class="tags__item">{% include '@mytheme/tag/tag.twig' with {url: tag.url, name: tag.name} only %}</li>
+          {% include '@mytheme/tag/tag.twig' with
+              {
+                  label: tag.label,
+                  modifier_class: tag.modifier_class
+              } only
+          %}
     {% endfor %}
-  </ul>
 </div>

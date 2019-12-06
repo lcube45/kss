@@ -1,4 +1,4 @@
 {
-  "url": "node/1",
-  "name": "Politics"
+  "label": "Politics",
+  "modifier_class": "badge-primary"
 }

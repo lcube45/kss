@@ -3,6 +3,13 @@
   <img src="{{ img_url }}" class="card-img-top" alt="{{ img_alt }}">
   <div class="card-body">
     <h5 class="card-title">{{ title }}</h5>
+    <div class="card__tags">
+      {% include '@mytheme/tags/tags.twig' with
+        {
+          tags: tags
+        } only
+      %}
+    </div>
     <p class="card-text">{{ text }}</p>
     {% include '@mytheme/button.twig' with 
       {
@@ -11,6 +18,5 @@
         modifier_class: button.modifier_class
       } only
     %}
-
   </div>
 </div>

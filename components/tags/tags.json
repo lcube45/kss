@@ -2,28 +2,24 @@
   "label": "Tags",
   "tags": [
     {
-      "name": "News",
-      "url": "node/1"
+      "label": "News",
+      "modifier_class": "btn-primary"
     },
     {
-      "name": "Sport",
-      "url": "node/1"
+      "label": "Sport",
+      "modifier_class": "btn-secondary"
     },
     {
-      "name": "Music",
-      "url": "node/1"
+      "label": "Music",
+      "modifier_class": "btn-light"
     },
     {
-      "name": "Politics",
-      "url": "node/1"
+      "label": "Politics",
+      "modifier_class": "btn-dark"
     },
     {
-      "name": "Analysis",
-      "url": "node/1"
-    },
-    {
-      "name": "Finance",
-      "url": "node/1"
+      "label": "Culture",
+      "modifier_class": "btn-info"
     }
   ]
 }

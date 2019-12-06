@@ -8,6 +8,16 @@
         "label": "hello world !",
         "modifier_class": "btn-primary"
     },
+    "tags": [
+        {
+            "label": "News",
+            "modifier_class": "btn-primary"
+        },
+        {
+            "label": "Sport",
+            "modifier_class": "btn-secondary"
+        }
+    ],
     "attributes": {
         "class": "myclass",
         "id": "myid",
