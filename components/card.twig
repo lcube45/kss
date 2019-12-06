@@ -4,7 +4,13 @@
   <div class="card-body">
     <h5 class="card-title">{{ title }}</h5>
     <p class="card-text">{{ text }}</p>
-{% include '@mytheme/button.twig' with {url: '#', label: 'hello'} only %}
+    {% include '@mytheme/button.twig' with 
+      {
+        url: '#', 
+        label: 'hello',
+        modifier_class: 'btn-primary'
+      } only
+    %}
 
   </div>
 </div>

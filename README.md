@@ -2,6 +2,7 @@ npm install --save-dev kss
 
 https://mariohernandez.gitbooks.io/components/
 
+https://blog.kalamuna.com/kalastatic/styleguide/section-color-swatches.html
 https://www.nato.int/vigs/web-styleguides/frontend/styleguide/
 https://rizzo.lonelyplanet.com/styleguide/design-elements/colours
 http://govlab.github.io/styleguide/
