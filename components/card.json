@@ -3,6 +3,11 @@
     "text": "my lorem ipsum",
     "img_url": "https://via.placeholder.com/150",
     "img_alt": "My alt text",
+    "button": {
+        "url": "#",
+        "label": "hello world !",
+        "modifier_class": "btn-primary"
+    },
     "attributes": {
         "class": "myclass",
         "id": "myid",

@@ -6,9 +6,9 @@
     <p class="card-text">{{ text }}</p>
     {% include '@mytheme/button.twig' with 
       {
-        url: '#', 
-        label: 'hello',
-        modifier_class: 'btn-primary'
+        url: button.url,
+        label: button.label,
+        modifier_class: button.modifier_class
       } only
     %}
 
